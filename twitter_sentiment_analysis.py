@@ -503,7 +503,7 @@ def predict_sentiment1(tweet):
   y_pred = np.where(y_pred>0.5, 1, 0)
   return y_pred
 
-tweet = "she is fucking hot😎"
+tweet = "I am feeling Happy"
 sentiment = predict_sentiment(tweet)
 if sentiment[0][0] == 1:
   print("Positive 😃")
